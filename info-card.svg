@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800"
+     height="300"
+     viewBox="0 0 800 300">
+
+  <rect width="800" height="300" rx="12" fill="#0d1117"/>
+
+  <!-- Terminal prompt -->
+  <text x="30" y="40"
+        fill="#8b949e"
+        font-family="monospace"
+        font-size="18">
+    abhinavqx@github:~$
+  </text>
+
+  <text x="30" y="75"
+        fill="#58a6ff"
+        font-family="monospace"
+        font-size="22">
+    neofetch
+  </text>
+
+  <!-- ASCII logo -->
+  <text x="40" y="125"
+        fill="#39d353"
+        font-family="monospace"
+        font-size="18">
+    V E Y L I T H
+  </text>
+
+  <text x="40" y="150"
+        fill="#39d353"
+        font-family="monospace"
+        font-size="18">
+    O S
+  </text>
+
+  <!-- Information -->
+  <text x="250" y="120"
+        fill="#ffffff"
+        font-family="monospace"
+        font-size="18">
+    OS: VeylithOS
+  </text>
+
+  <text x="250" y="150"
+        fill="#ffffff"
+        font-family="monospace"
+        font-size="18">
+    User: abhinavqx
+  </text>
+
+  <text x="250" y="180"
+        fill="#ffffff"
+        font-family="monospace"
+        font-size="18">
+    Shell: zsh
+  </text>
+
+  <text x="250" y="210"
+        fill="#ffffff"
+        font-family="monospace"
+        font-size="18">
+    Editor: Neovim
+  </text>
+
+  <text x="250" y="240"
+        fill="#ffffff"
+        font-family="monospace"
+        font-size="18">
+    Languages: C / Rust / Java
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="30" y="265" width="12" height="20" fill="#39d353">
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="0.8s"
+      repeatCount="indefinite"/>
+  </rect>
+
+</svg>
