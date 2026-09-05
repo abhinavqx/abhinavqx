@@ -1,27 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
-  <rect width="800" height="300" rx="12" fill="#0d1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <rect width="900" height="420" rx="14" fill="#0d1117"/>
 
   <g font-family="monospace" font-size="18">
-    <text x="30" y="40" fill="#8b949e">abhinavqx@github:~$</text>
-    <text x="30" y="70" fill="#58a6ff">fastfetch</text>
 
-    <text x="30" y="115" fill="#39d353">abhinavqx</text>
-    <text x="30" y="140" fill="#39d353">────────</text>
+    <text x="30" y="38" fill="#8b949e">
+      abhinavqx@github
+    </text>
 
-    <text x="250" y="115" fill="#ffffff">OS: NixOS 26.11</text>
-    <text x="250" y="140" fill="#ffffff">Shell: fish 4.8.1</text>
-    <text x="250" y="165" fill="#ffffff">WM: niri 26.04</text>
-    <text x="250" y="190" fill="#ffffff">Terminal: kitty</text>
-    <text x="250" y="215" fill="#ffffff">CPU: i5-1155G7</text>
-    <text x="250" y="240" fill="#ffffff">GPU: Intel Iris Xe</text>
-    <text x="250" y="265" fill="#ffffff">Memory: 15.27 GiB</text>
+    <text x="30" y="65" fill="#8b949e">
+      ----------------
+    </text>
+
+    <text x="30" y="105" fill="#39d353">OS:</text>
+    <text x="180" y="105" fill="#ffffff">NixOS 26.11</text>
+
+    <text x="30" y="135" fill="#39d353">Kernel:</text>
+    <text x="180" y="135" fill="#ffffff">Linux 7.2.3-cachyos-lto</text>
+
+    <text x="30" y="165" fill="#39d353">Shell:</text>
+    <text x="180" y="165" fill="#ffffff">fish 4.8.1</text>
+
+    <text x="30" y="195" fill="#39d353">WM:</text>
+    <text x="180" y="195" fill="#ffffff">niri 26.04</text>
+
+    <text x="30" y="225" fill="#39d353">Terminal:</text>
+    <text x="180" y="225" fill="#ffffff">kitty 0.48.2</text>
+
+    <text x="30" y="255" fill="#39d353">Font:</text>
+    <text x="180" y="255" fill="#ffffff">IosevkaNF</text>
+
+    <text x="30" y="285" fill="#39d353">CPU:</text>
+    <text x="180" y="285" fill="#ffffff">Intel i5-1155G7</text>
+
+    <text x="30" y="315" fill="#39d353">GPU:</text>
+    <text x="180" y="315" fill="#ffffff">Intel Iris Xe</text>
+
+    <text x="30" y="345" fill="#39d353">Memory:</text>
+    <text x="180" y="345" fill="#ffffff">15.27 GiB</text>
+
+    <text x="30" y="375" fill="#58a6ff">
+      abhinavqx@github:~$
+    </text>
+
+    <rect x="230" y="358" width="11" height="20" fill="#39d353">
+      <animate
+        attributeName="opacity"
+        values="1;0;1"
+        dur="0.8s"
+        repeatCount="indefinite"/>
+    </rect>
+
   </g>
-
-  <rect x="30" y="275" width="11" height="18" fill="#39d353">
-    <animate
-      attributeName="opacity"
-      values="1;0;1"
-      dur="0.8s"
-      repeatCount="indefinite"/>
-  </rect>
 </svg>
