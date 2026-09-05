@@ -1,34 +1,27 @@
-<text x="250" y="120"
-      fill="#ffffff"
-      font-family="monospace"
-      font-size="18">
-  OS: NixOS 26.11
-</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <rect width="800" height="300" rx="12" fill="#0d1117"/>
 
-<text x="250" y="150"
-      fill="#ffffff"
-      font-family="monospace"
-      font-size="18">
-  User: abhinavqx
-</text>
+  <g font-family="monospace" font-size="18">
+    <text x="30" y="40" fill="#8b949e">abhinavqx@github:~$</text>
+    <text x="30" y="70" fill="#58a6ff">fastfetch</text>
 
-<text x="250" y="180"
-      fill="#ffffff"
-      font-family="monospace"
-      font-size="18">
-  Shell: fish 4.8.1
-</text>
+    <text x="30" y="115" fill="#39d353">abhinavqx</text>
+    <text x="30" y="140" fill="#39d353">────────</text>
 
-<text x="250" y="210"
-      fill="#ffffff"
-      font-family="monospace"
-      font-size="18">
-  WM: niri 26.04
-</text>
+    <text x="250" y="115" fill="#ffffff">OS: NixOS 26.11</text>
+    <text x="250" y="140" fill="#ffffff">Shell: fish 4.8.1</text>
+    <text x="250" y="165" fill="#ffffff">WM: niri 26.04</text>
+    <text x="250" y="190" fill="#ffffff">Terminal: kitty</text>
+    <text x="250" y="215" fill="#ffffff">CPU: i5-1155G7</text>
+    <text x="250" y="240" fill="#ffffff">GPU: Intel Iris Xe</text>
+    <text x="250" y="265" fill="#ffffff">Memory: 15.27 GiB</text>
+  </g>
 
-<text x="250" y="240"
-      fill="#ffffff"
-      font-family="monospace"
-      font-size="18">
-  Terminal: kitty
-</text>
+  <rect x="30" y="275" width="11" height="18" fill="#39d353">
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="0.8s"
+      repeatCount="indefinite"/>
+  </rect>
+</svg>
