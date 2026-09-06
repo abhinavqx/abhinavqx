@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="840"
+     height="520"
+     viewBox="0 0 840 520"
+     font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111722"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="840" height="520" rx="12" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5"
+        width="839" height="519"
+        rx="12"
+        fill="none"
+        stroke="#30363d"/>
+
+  <!-- terminal bar -->
+  <line x1="0" y1="30" x2="840" y2="30" stroke="#30363d"/>
+
+  <circle cx="20" cy="15" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="15" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="15" r="5" fill="#27c93f"/>
+
+  <text x="420"
+        y="19"
+        fill="#7d8590"
+        font-size="12"
+        text-anchor="middle">
+    abhinav@github: ~$ fastfetch
+  </text>
+
+  <!-- NixOS ASCII logo -->
+  <g fill="#7ebae4"
+     font-family="DejaVu Sans Mono, monospace"
+     font-size="20"
+     font-weight="bold"
+     xml:space="preserve">
+
+    <text x="105" y="80">
+      <tspan x="105" dy="0">       __    ____    __</tspan>
+      <tspan x="105" dy="22">      /  \   \   \  /  \</tspan>
+      <tspan x="105" dy="22">      \   \   \   \/   /</tspan>
+      <tspan x="105" dy="22">    ___\   \___\      /</tspan>
+      <tspan x="105" dy="22">   /            \    /   /\</tspan>
+      <tspan x="105" dy="22">  /______________\   \  /  \</tspan>
+      <tspan x="105" dy="22">       /   /      \   \/   /</tspan>
+      <tspan x="105" dy="22"> _____/   /        \  /   /___</tspan>
+      <tspan x="105" dy="22">/         /          \/        \</tspan>
+      <tspan x="105" dy="22">\____    /\          /   ______/</tspan>
+      <tspan x="105" dy="22">    /   /  \        /   /</tspan>
+      <tspan x="105" dy="22">   /   / \  \______/___/</tspan>
+      <tspan x="105" dy="22">   \  /  \   \              /</tspan>
+      <tspan x="105" dy="22">    \/   /    \____    ____/</tspan>
+      <tspan x="105" dy="22">        /        \   \   \</tspan>
+      <tspan x="105" dy="22">       /   /\     \   \   \</tspan>
+      <tspan x="105" dy="22">       \__/  \_____\   \__/</tspan>
+    </text>
+
+  </g>
+
+  <!-- bottom terminal -->
+  <line x1="0" y1="445" x2="840" y2="445" stroke="#30363d"/>
+
+  <text x="20"
+        y="470"
+        fill="#7d8590"
+        font-size="13">
+    abhinav@github:~$ nixos-version
+  </text>
+
+  <text x="20"
+        y="495"
+        fill="#c9d1d9"
+        font-size="13">
+    NixOS • Linux • flakes • niri
+  </text>
+
+  <!-- blinking cursor -->
+  <rect x="245"
+        y="458"
+        width="8"
+        height="14"
+        fill="#c9d1d9">
+    <animate
+      attributeName="opacity"
+      values="1;1;0;0"
+      keyTimes="0;0.5;0.51;1"
+      dur="1s"
+      repeatCount="indefinite"/>
+  </rect>
+
+</svg>
